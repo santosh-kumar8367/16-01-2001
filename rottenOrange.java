@@ -39,6 +39,6 @@ class Solution {
                 if(grid[i][j]==1) return -1;
             }
         }
-        return time==0?0:time-1;
+        return time==0?0:time-1;    //-1 because we are incrementng time at bgnng for single rotten orange
     }
 }
